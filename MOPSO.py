@@ -283,10 +283,11 @@ def find_gbest():
     else:
         toward_gbest = 0
     return 
+
 '''main function'''
 def move_particles():
     global toward_pbest
-    
+    global toward_gbest
     global iteration
     global w
     
